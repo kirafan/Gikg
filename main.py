@@ -1,5 +1,7 @@
 import os
 import requests
+from dotenv import load_dotenv
+load_dotenv()
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 from telegram import Update
 
